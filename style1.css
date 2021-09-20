@@ -1,0 +1,127 @@
+.icons {
+  width: 60px;
+  height: 60px;
+}
+body {
+  background-color: #f0f5f5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0px;
+  margin: 0px;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+header {
+  background-color: #1da3cc;
+  color: white;
+  padding-top: 70px;
+  border-bottom: #29a11f 3px solid;
+}
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: px;
+}
+header ul {
+  margin: 0px;
+  padding: 0px;
+}
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header #brand {
+  float: left;
+}
+
+header #brand h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header li.current {
+  color: #101416;
+}
+
+header a:hover {
+  color: #02080a;
+}
+
+header .logo {
+  color: #070808;
+}
+
+/* Main Section styles */
+#mainSection h1 {
+  margin-top: 100px;
+  font-size: 60px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+#mainSection p {
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Newsletter section */
+#newsletter {
+  background-color: #3d5c5c;
+  padding: 15px;
+  color: white;
+}
+
+#newsletter h1 {
+  float: left;
+}
+
+#newsletter form {
+  float: right;
+  margin-top: 20px;
+}
+#newsletter form input[type="email"] {
+  padding: 4px;
+  height: 25px;
+  width: 300px;
+}
+#newsletter #button1 {
+  height: 38px;
+  background-color: #e60000;
+  color: #ffffff;
+  border: none;
+  padding: 0 20px 0 20px;
+}
+
+/* Services section */
+#services {
+  margin-top: 50px;
+}
+#services .box {
+  text-align: center;
+  width: 30%;
+  float: left;
+  padding: 10px;
+}
+#services p {
+  font-size: 12px;
+}
+
+/* footer Section */
+footer {
+  padding: 5px;
+  background-color: #2ac3ff;
+  text-align: center;
+  color: white;
+}
+footer p {
+  font-size: 12px;
+}
